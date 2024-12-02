@@ -12,3 +12,38 @@ img,
 video {
   display: block;
 }
+
+@font-face {
+  font-family: "Moalang";
+  src: url(../font/SwistblnkMoalangMelintang.woff) format("woff"),
+    url(../font/SwistblnkMoalangMelintang.woff2) format("woff2");
+}
+
+:root {
+  --red-foncé: #6e0002;
+  --red: #a90000;
+  --red-clair: #d62326;
+  --red-très-clair: #ffbebe;
+  --red-très-très-clair: #ffdddd;
+  --or-foncé: #aa9569;
+  --or: #c7b48b;
+  --or-clair: #e7decb;
+  --or-très-clair: #f4eddf;
+  --black: #000000;
+  --grey: #737373;
+  --white: #ffffff;
+}
+
+@import "bootstrap/scss/bootstrap-grid";
+
+.row + .row {
+  margin-top: 16px;
+}
+
+.row > .col,
+.row > [class^="col-"] {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: rgba(86, 61, 124, 0.15);
+  border: 1px solid rgba(86, 61, 124, 0.2);
+}
