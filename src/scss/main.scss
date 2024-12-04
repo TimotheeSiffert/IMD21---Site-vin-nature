@@ -36,25 +36,102 @@ video {
 
 @import "bootstrap/scss/bootstrap-grid";
 
-.row + .row {
-  margin-top: 16px;
+.logo {
+  width: 142px;
+  height: 36px;
 }
 
-.row > .col,
-.row > [class^="col-"] {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  background-color: rgba(86, 61, 124, 0.15);
-  border: 1px solid rgba(86, 61, 124, 0.2);
+.menu-sections {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 54px;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  gap: 135px;
+  margin-top: 78px;
+  align-items: center;
+}
+
+.sections {
+  color: var(--white);
+  text-align: center;
+  font-family: "Faculty Glyphic";
+  font-size: 20px;
+  font-weight: 400;
+  width: 110px;
 }
 
 .background-header {
-  width: 100%;
-  background-color: rgba(86, 61, 124, 0.15);
-  border: 1px solid rgba(86, 61, 124, 0.2);
-  margin-bottom: 20px;
+  background-image: url(../img/background-header.jpg);
+  height: calc(100vw / 16 * 9);
+  background-size: cover;
 }
 
-.container {
-  margin-bottom: 20px;
+.titre-principal {
+  color: var(--couleur-white, #fff);
+  text-align: center;
+  font-family: "Swistblnk Moalang Melintang";
+  font-size: 78px;
+  font-weight: 400;
+}
+
+.texte-principal {
+  color: var(--couleur-white, #fff);
+  text-align: center;
+  font-family: "Faculty Glyphic";
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.header-content {
+  margin-top: 145px;
+  display: flex;
+  flex-direction: column;
+}
+
+.sous-sections {
+  color: var(--white);
+  text-align: center;
+  font-family: "Faculty Glyphic";
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.sous-header {
+  margin-top: 35px;
+}
+
+.sous-header-sections {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+}
+
+.line {
+  width: 738px;
+  height: 1px;
+  background-color: var(--white);
+  margin: auto;
+  margin-bottom: 12px;
+}
+
+.button {
+  background-color: var(--red);
+  display: flex;
+  width: 171px;
+  padding: 10px 15px;
+  justify-content: center;
+  gap: 10px;
+  color: var(--couleur-white, #fff);
+  text-align: center;
+  font-family: "Faculty Glyphic";
+  font-size: 24px;
+  font-weight: 400;
+  border: none;
+  margin: auto;
+  margin-top: 94px;
 }
