@@ -40,6 +40,23 @@ body {
 
 @import "bootstrap/scss/bootstrap-grid";
 
+// .row + .row {
+//   margin-top: 16px;
+// }
+
+// .row > .col,
+// .row > [class^="col-"] {
+//   padding-top: 12px;
+//   padding-bottom: 12px;
+//   background-color: rgba(86, 61, 124, 0.15);
+//   border: 1px solid rgba(86, 61, 124, 0.2);
+//   margin-bottom: 20px;
+// }
+
+a {
+  text-decoration: none;
+}
+
 .logo {
   width: 142px;
   height: 36px;
@@ -62,6 +79,15 @@ body {
 
 .sections {
   color: var(--white);
+  text-align: center;
+  font-family: "Faculty Glyphic";
+  font-size: 20px;
+  font-weight: 400;
+  width: 110px;
+}
+
+.sections {
+  color: var(--black);
   text-align: center;
   font-family: "Faculty Glyphic";
   font-size: 20px;
@@ -357,12 +383,12 @@ body {
   justify-content: center;
   align-items: center;
   gap: 10px;
-  color: var(--couleur-white, #fff);
+  color: var(--white);
   text-align: center;
   font-family: "Faculty Glyphic";
   font-size: 24px;
   font-weight: 400;
-  background: var(--couleur-red, #a90000);
+  background: var(--red);
   margin-bottom: 47px;
 }
 
@@ -383,7 +409,7 @@ body {
 }
 
 .titre-langue {
-  color: var(--couleur-red-fonc, #6e0002);
+  color: var(--red-foncé);
   font-family: "Faculty Glyphic";
   font-size: 18px;
   font-style: normal;
@@ -397,4 +423,151 @@ body {
   font-size: 15px;
   font-weight: 400;
   line-height: 154%;
+}
+
+.titre-footer {
+  color: var(--red);
+  text-align: center;
+  font-family: "Swistblnk Moalang Melintang";
+  font-size: 80px;
+  font-weight: 400;
+}
+
+.sous-titre-footer {
+  color: var(--red);
+  text-align: center;
+  font-family: "Faculty Glyphic";
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.logo-sponsor {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.sponsor {
+  width: 100%;
+}
+
+.top-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.line-footer {
+  height: 0.8px;
+  background: var(--red);
+}
+
+.inscription-footer {
+  display: flex;
+  align-items: flex-end;
+  gap: 19px;
+  margin-top: 33px;
+}
+
+.bouton-inscription-newsletter {
+  display: flex;
+  width: 171px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  color: var(--white);
+  text-align: center;
+  font-family: "Faculty Glyphic";
+  font-size: 24px;
+  font-weight: 400;
+  background: var(--red);
+}
+
+.text-adresse {
+  color: var(--red);
+  font-family: "Faculty Glyphic";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 154%;
+}
+
+.adresse {
+  color: var(--red-foncé);
+  font-family: "Faculty Glyphic";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 115.401%;
+  margin-top: 40px;
+}
+
+.jours {
+  display: flex;
+  gap: 19px;
+}
+
+.titre-vente {
+  color: var(--red-foncé);
+  font-family: "Faculty Glyphic";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 115.401%;
+  margin-top: 40px;
+}
+
+.jours {
+  color: var(--red);
+  font-family: "Faculty Glyphic";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 115.401%;
+}
+
+.vente-droite p,
+.vente-gauche p {
+  margin-top: 5px;
+}
+
+.reservation {
+  color: var(--red);
+  font-family: "Faculty Glyphic";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 115.401%;
+  margin-top: 21px;
+  margin-bottom: 90px;
+}
+
+.icon-footer {
+  display: flex;
+  gap: 41px;
+}
+
+.icon-reseaux {
+  width: 30px;
+}
+
+.titre-reseaux {
+  color: var(--red-foncé);
+  font-family: "Faculty Glyphic";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 115.401%;
+  margin-top: 40px;
+}
+
+.reseaux {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.conditions {
+  color: var(--red);
+  text-align: right;
+  font-family: "Faculty Glyphic";
+  font-size: 11px;
+  font-weight: 400;
+  margin-bottom: 20px;
 }
