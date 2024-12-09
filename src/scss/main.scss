@@ -76,7 +76,7 @@ body {
 }
 
 .titre-principal {
-  color: var(--couleur-white, #fff);
+  color: var(--white);
   text-align: center;
   font-family: "Swistblnk Moalang Melintang";
   font-size: 78px;
@@ -84,7 +84,7 @@ body {
 }
 
 .texte-principal {
-  color: var(--couleur-white, #fff);
+  color: var(--white);
   text-align: center;
   font-family: "Faculty Glyphic";
   font-size: 20px;
@@ -99,6 +99,7 @@ body {
 
 .sous-sections {
   color: var(--white);
+  width: 149px;
   text-align: center;
   font-family: "Faculty Glyphic";
   font-size: 16px;
@@ -130,7 +131,7 @@ body {
   padding: 10px 15px;
   justify-content: center;
   gap: 10px;
-  color: var(--couleur-white, #fff);
+  color: var(--white);
   text-align: center;
   font-family: "Faculty Glyphic";
   font-size: 24px;
@@ -185,8 +186,8 @@ body {
   justify-content: center;
   align-items: center;
   gap: 10px;
-  border: 2px solid var(--couleur-red, #a90000);
-  color: var(--couleur-red, #a90000);
+  border: 2px solid var(--red);
+  color: var(--red);
   text-align: center;
   font-family: "Faculty Glyphic";
   font-size: 24px;
@@ -220,4 +221,180 @@ body {
 
 .image-philosophie {
   width: 100%;
+}
+
+.titre-philosophie {
+  color: var(--red);
+  font-family: "Swistblnk Moalang Melintang";
+  font-size: 60px;
+  font-weight: 400;
+}
+
+.citation-philosophie {
+  color: var(--red);
+  font-family: "Faculty Glyphic";
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.top-philosophie {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.texte-philosophie {
+  color: var(--black);
+  font-family: "Faculty Glyphic";
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.all-text-philosophie {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.image-philosophie {
+  background-image: url(../img/photo-philosophie.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  min-height: 350px;
+  display: flex;
+  align-items: end;
+}
+
+.content-philosophie {
+  margin-bottom: 42px;
+}
+
+.titre-vigneron {
+  color: var(--red);
+  text-align: right;
+  font-family: "Swistblnk Moalang Melintang";
+  font-size: 60px;
+  font-weight: 400;
+}
+
+.nom-vigneron {
+  color: var(--red);
+  text-align: right;
+  font-family: "Faculty Glyphic";
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.texte-vigneron {
+  color: var(--black);
+  text-align: right;
+  font-family: "Faculty Glyphic";
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.image-vigneron {
+  background-image: url(../img/photo-vigneron.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  min-height: 350px;
+  display: flex;
+  align-items: end;
+}
+
+.bouton-philosophie-vigneron {
+  display: flex;
+  width: 171px;
+  padding: 10px 15px;
+  justify-content: center;
+  gap: 10px;
+  border: 2px solid var(--white);
+  margin-bottom: 24px;
+}
+
+.text-bouton-philosophie-vigneron {
+  color: var(--white);
+  text-align: center;
+  font-family: "Faculty Glyphic";
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.all-text-vigneron {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.background-degustation {
+  background-image: url(../img/background-degustation.jpg);
+  background-position: center;
+  background-size: cover;
+  margin-top: 206px;
+  margin-bottom: 77px;
+}
+
+.titre-degustation {
+  color: var(--white);
+  font-family: "Faculty Glyphic";
+  font-size: 48px;
+  font-weight: 400;
+  margin-top: 140px;
+}
+
+.text-degustation {
+  color: var(--white);
+  font-family: "Faculty Glyphic";
+  font-size: 20px;
+}
+
+.bouton-degustation {
+  display: flex;
+  width: 171px;
+  padding: 10px 15px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: var(--couleur-white, #fff);
+  text-align: center;
+  font-family: "Faculty Glyphic";
+  font-size: 24px;
+  font-weight: 400;
+  background: var(--couleur-red, #a90000);
+  margin-bottom: 47px;
+}
+
+.all-text-degustation {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 7px;
+  align-self: stretch;
+}
+
+.content-degustation {
+  display: flex;
+  width: 738px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 48px;
+}
+
+.titre-langue {
+  color: var(--couleur-red-fonc, #6e0002);
+  font-family: "Faculty Glyphic";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 115.401%;
+}
+
+.langues {
+  color: var(--red);
+  font-family: "Faculty Glyphic";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 154%;
 }
