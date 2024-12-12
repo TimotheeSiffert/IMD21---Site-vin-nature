@@ -184,6 +184,13 @@ a {
   margin: auto;
   margin-top: 94px;
   margin-bottom: 193px;
+  transition: 0.5s;
+  border: solid var(--red) 1px;
+}
+
+.CTA:hover {
+  background: none;
+  border: solid var(--white) 1px;
 }
 
 .titre-articles {
@@ -237,6 +244,12 @@ a {
   font-size: 24px;
   font-weight: 400;
   background-color: var(--white);
+  transition: 0.5s;
+}
+
+.button-vers-vin:hover {
+  background-color: var(--red);
+  color: var(--white);
 }
 
 .article-texte {
@@ -356,6 +369,12 @@ a {
   gap: 10px;
   border: 2px solid var(--white);
   margin-bottom: 24px;
+  transition: 0.5s;
+}
+
+.bouton-philosophie-vigneron:hover {
+  border: solid var(--red) 2px;
+  background-color: var(--red);
 }
 
 .text-bouton-philosophie-vigneron {
@@ -408,6 +427,13 @@ a {
   font-weight: 400;
   background: var(--red);
   margin-bottom: 47px;
+  border: solid var(--red) 1px;
+  transition: 0.5s;
+}
+
+.bouton-degustation:hover {
+  background: none;
+  border: solid var(--white) 1px;
 }
 
 .all-text-degustation {
@@ -673,6 +699,12 @@ a {
   font-family: "Faculty Glyphic";
   font-size: 24px;
   font-weight: 400;
+  transition: 0.5s;
+}
+
+.CTA-vin-rouge:hover {
+  background-color: var(--red);
+  color: var(--white);
 }
 
 .accords-mets {
