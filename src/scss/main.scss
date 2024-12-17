@@ -84,6 +84,12 @@ a {
   font-size: 20px;
   font-weight: 400;
   width: 110px;
+  transition: 0.5s;
+}
+
+.sections:hover {
+  text-decoration: underline;
+  font-size: 19px;
 }
 
 .sections-2 {
@@ -93,6 +99,12 @@ a {
   font-size: 20px;
   font-weight: 400;
   width: 110px;
+  transition: 0.5s;
+}
+
+.sections-2:hover {
+  text-decoration: underline;
+  font-size: 19px;
 }
 
 .background-header {
@@ -130,6 +142,12 @@ a {
   font-family: "Faculty Glyphic";
   font-size: 16px;
   font-weight: 400;
+  transition: 0.5s;
+}
+
+.sous-sections:hover {
+  text-decoration: underline;
+  font-size: 15px;
 }
 
 .sous-header {
@@ -150,6 +168,12 @@ a {
   font-size: 16px;
   font-weight: 400;
   margin-bottom: 96px;
+  transition: 0.5s;
+}
+
+.sous-sections-2:hover {
+  text-decoration: underline;
+  font-size: 15px;
 }
 
 .line {
@@ -527,6 +551,14 @@ a {
   font-size: 24px;
   font-weight: 400;
   background: var(--red);
+  border: solid var(--red) 1px;
+  transition: 0.5s;
+}
+
+.bouton-inscription-newsletter:hover {
+  background: none;
+  border: solid var(--red) 1px;
+  color: var(--red);
 }
 
 .text-adresse {
@@ -628,6 +660,13 @@ a {
 
 .fleche {
   margin-bottom: 50px;
+  transition: 0.5s;
+  padding: 5px;
+}
+
+.fleche:hover {
+  background-color: rgb(229, 229, 229);
+  border-radius: 50%;
 }
 
 .texte-description-vin {
@@ -771,6 +810,11 @@ a {
 .image-autre-vin {
   width: 100%;
   margin-bottom: 35px;
+  transition: 0.3s;
+}
+
+.image-autre-vin:hover {
+  transform: scale(1.03);
 }
 
 .titre-first-autre-vin {
