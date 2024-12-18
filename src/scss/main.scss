@@ -18,7 +18,7 @@ body {
 }
 
 @font-face {
-  font-family: "Moalang";
+  font-family: "Swistblnk Moalang Melintang";
   src: url(../font/SwistblnkMoalangMelintang.woff) format("woff"),
     url(../font/SwistblnkMoalangMelintang.woff2) format("woff2");
 }
@@ -88,8 +88,7 @@ a {
 }
 
 .sections:hover {
-  text-decoration: underline;
-  font-size: 19px;
+  transform: scale(0.93);
 }
 
 .sections-2 {
@@ -103,8 +102,7 @@ a {
 }
 
 .sections-2:hover {
-  text-decoration: underline;
-  font-size: 19px;
+  transform: scale(0.93);
 }
 
 .background-header {
@@ -146,8 +144,7 @@ a {
 }
 
 .sous-sections:hover {
-  text-decoration: underline;
-  font-size: 15px;
+  transform: scale(0.93);
 }
 
 .sous-header {
@@ -172,7 +169,6 @@ a {
 }
 
 .sous-sections-2:hover {
-  text-decoration: underline;
   font-size: 15px;
 }
 
@@ -234,6 +230,11 @@ a {
 
 .image-article-1 {
   width: 100%;
+  transition: 0.4s;
+}
+
+.image-article-1:hover {
+  transform: scale(1.01);
 }
 
 .articles {
@@ -289,6 +290,11 @@ a {
 
 .image-article-2 {
   width: 100%;
+  transition: 0.4s;
+}
+
+.image-article-2:hover {
+  transform: scale(1.01);
 }
 
 .article-2-texte {
@@ -829,4 +835,20 @@ a {
   font-family: "Faculty Glyphic";
   font-size: 16px;
   font-weight: 400;
+}
+
+.langage {
+  transition: 0.4s;
+}
+
+.langage:hover {
+  transform: scale(1.2);
+}
+
+.panier {
+  transition: 0.5s;
+}
+
+.panier:hover {
+  transform: scale(1.2);
 }
